@@ -1,1 +1,6 @@
+streamlit
+chromadb
+python-decouple
+langchain-openai
+langchain
 pydantic
