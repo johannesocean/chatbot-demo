@@ -21,6 +21,7 @@ chatbot-demo/
 ├── data/
 │   └── recipes.json
 ├── .venv/
+├── .env
 ├── requirements.txt
 └── README.md
 ```
@@ -41,6 +42,13 @@ python -m venv .venv  # Create a virtual environment
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### Create a .env file
+Create a .env file in the root directory and add the following environment variables:
+```bash
+OPENAI_API_KEY=your-openai-api-key
+OPENAI_MODEL=your-choice-of-model
 ```
 
 ### Setup and populate the VectorStore
