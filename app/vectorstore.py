@@ -63,6 +63,7 @@ if __name__ == "__main__":
     create_collection("collection-name")
     populate_with_default_data("collection-name")
 
+    # Example query
     # from pprint import pprint
     # result = query_collection("I like seafood!", collection="collection-name")
     # pprint(result)
