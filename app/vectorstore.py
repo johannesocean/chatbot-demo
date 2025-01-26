@@ -30,7 +30,7 @@ def add_document(
     if not documents:
         return "No documents provided"
 
-    ids = ids or [f"doc {i+1}" for i in range(len(documents))]
+    ids = ids or [f"Doc {i+1}" for i in range(len(documents))]
 
     collection = collection or get_first_collection()
     collection_store = chroma.get_collection(collection)
