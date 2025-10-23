@@ -4,3 +4,4 @@ python-decouple
 langchain-openai
 langchain
 pydantic
+pytest
